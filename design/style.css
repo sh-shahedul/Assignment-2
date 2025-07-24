@@ -1,0 +1,188 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth; 
+}
+/* font-family: "Noto Serif", serif;
+    font-family: "Inter", sans-serif;
+ */
+ /* common class  */
+    .fresh{
+       color:#E95A08 ;
+     }
+     .common-section{
+    max-width:1140px ;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid;     
+    }
+    .btn-primary{
+     font-size: 1rem;
+     font-weight: 600;
+     padding: 20px 50px;
+     border: none;
+     background-color: #E95A08;
+     color: white;
+
+    }
+    
+ /* header style start  */
+/* nav style  */
+ 
+    .nav{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       font-family: "Inter", sans-serif;     
+    }
+    .nav-menu ul{
+       display: flex;
+    }
+    .nav-menu ul li{
+       list-style: none;
+       margin: 10px;
+    }
+    .nav-menu ul li a{
+         text-decoration: none;
+         color: #252432;
+    }
+    #menu-bar{
+        color: #8987A1;
+    }
+   /* banner style start  */
+     .banner-container{
+       display: flex;
+       justify-content: space-between;
+       align-items: end;
+       margin-top: 120px;
+     }
+     .banner-article{
+       max-width: 570px;
+       margin: 0 auto;
+     }
+     .banner-title{
+        font-size: 4rem;
+        font-weight: bold;
+        font-family: "Noto Serif", serif;
+     }
+     
+     .banner-discription{
+        font-size: 1.375rem;
+        font-family: "Inter", sans-serif;
+        color:rgba(0, 0, 0, 0.5);
+        margin-top: 10px;
+     }
+     .banner-container img{
+       display: block;
+     }
+  /* banner style ends  */
+ /* header style ends  */
+ /* =================== */
+ /* main style starts  */
+    /* plants  */
+    .plants{
+        text-align: center;
+        margin-top: 60px;
+    }
+   .plants-title{
+         font-size: 3.125rem;
+         font-weight: bold;
+         font-family: "Noto Serif", serif;
+   }
+   .plants-sub-title{
+      font-size: 1.375rem;
+      max-width: 888px;
+      margin: 0 auto;
+      margin-top: 10px;
+      color: #8987A1;
+   }
+   /* plants end  */
+   /* card srtyle starts */
+     .card-container{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 50px 10px 
+     }
+     .card{
+         max-width: 270px;
+         height: 485px; 
+        }
+     .card img{
+        max-width: 100%;
+     }
+     .card-title{
+       font-size: 1.375rem;
+       font-weight: 500;
+       margin-top: 30px;
+     }
+     .price{
+       font-size: 1.375rem;
+       font-weight: 700;
+       margin-top: 20px;
+     }
+     .main-btn{
+      width: 100%;
+      margin-top: 30px;
+     }
+
+   /* card srtyle ends */
+
+
+
+
+ /* main style ends  */
+
+
+ @media screen and (max-width:576px) {
+ .hidden-bar {
+        display: none;
+    }
+    .nav-logo img{
+        max-width: 63px;
+        height: 38px;
+    }
+    /* banner  */
+     .banner-container{
+      flex-direction: column-reverse;
+      margin-top: 28px;
+     }
+     .banner-article ,.plants-sub-title{
+        padding: 0 16px;
+     }
+     .banner-title,.plants-title{
+       font-size: 1.5rem;
+     }
+     
+     .banner-discription ,.plants-sub-title{
+        font-size: 0.875rem;
+     }
+     /* plants  */
+     .plants{
+       margin-top: 28px;
+     }
+     .plants-sub-title{
+      margin-bottom: px;
+     }
+     /* card  */
+    .card-container{
+        grid-template-columns: repeat(2,1fr);  
+                gap: 50px 10px 
+   
+     }
+      .card{
+        max-width: 171px;
+         max-height: 385px; 
+         margin: 0 auto;   
+        }
+        .card-title ,.price{
+          font-size: 1rem;
+      
+     }
+     .main-btn{
+      padding: 19px 30px;
+      }
+    
+    
+ }
