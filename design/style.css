@@ -3,479 +3,417 @@
    margin: 0;
    box-sizing: border-box;
    scroll-behavior: smooth; 
-}
-/* font-family: "Noto Serif", serif;
-    font-family: "Inter", sans-serif;
- */
+   }
  /* common class  */
     .fresh{
-       color:#E95A08 ;
-     }
-     .common-section{
-    max-width:1140px ;
-    height: auto;
-    margin: 0 auto;    
-    }
-    
-    
- /* header style start  */
+          color:#E95A08 ;
+          }
+    .common-section{
+          max-width:1140px ;
+          height: auto;
+          margin: 0 auto;    
+          }
+/* header style start  */
 /* nav style  */
  
     .nav{
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       font-family: "Inter", sans-serif;     
-    }
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-family: "Inter", sans-serif;     
+          }
     .nav-menu ul{
-       display: flex;
-    }
+          display: flex;
+          }
     .nav-menu ul li{
-       list-style: none;
-       margin: 1.875rem;
-    }
+          list-style: none;
+          margin: 1.875rem;
+          }
     .nav-menu ul li a{
-         text-decoration: none;
-         color: #252432;
-    }
+          text-decoration: none;
+          color: #252432;
+          }
     #menu-bar{
-        color: #8987A1;
-    }
+          color: #8987A1;
+          }
    /* banner style start  */
-     .banner-container{
-       display: flex;
-       justify-content: space-between;
-       align-items: end;
-       margin-top: 7.5rem;
-     }
+    .banner-container{
+          display: flex;
+          justify-content: space-between;
+          align-items: end;
+          margin-top: 7.5rem;
+          }
      .banner-article{
-       max-width: 570px;
-       margin: 0 auto;
-     }
+          max-width: 570px;
+          margin: 0 auto;
+          }
      .banner-title{
-        font-size: 4rem;
-        font-weight: bold;
-        font-family: "Noto Serif", serif;
-     }
-     
+          font-size: 4rem;
+          font-weight: bold;
+          font-family: "Noto Serif", serif;
+          }
      .banner-discription{
-        font-size: 1.375rem;
-        font-family: "Inter", sans-serif;
-        color:rgba(0, 0, 0, 0.5);
-        margin-top: 10px;
-     }
+          font-size: 1.375rem;
+          font-family: "Inter", sans-serif;
+          color:rgba(0, 0, 0, 0.5);
+          margin-top: 10px;
+          }
      .banner-container img{
-       display: block;
+          display: block;
      }
-  /* banner style ends  */
- /* header style ends  */
- /* =================== */
- /* main style starts  */
+    /* main style starts  */
     /* plants  */
-    .plants{
-        text-align: center;
-        margin-top: 60px;
+     .plants{
+          text-align: center;
+          margin-top: 60px;
     }
-   .plants-title{
-         font-size: 3.125rem;
-         font-weight: bold;
-         font-family: "Noto Serif", serif;
-        
-   }
-   .plants-sub-title{
-      font-family: "Inter", sans-serif;
-      font-size: 1.375rem;
-      max-width: 888px;
-      margin: 0 auto;
-      margin-top: 40px;
-      color: #8987A1;
-   }
-   /* plants end  */
+     .plants-title{
+          font-size: 3.125rem;
+          font-weight: bold;
+          font-family: "Noto Serif", serif;
+          }
+     .plants-sub-title{
+          font-family: "Inter", sans-serif;
+          font-size: 1.375rem;
+          max-width: 888px;
+          margin: 0 auto;
+          margin-top: 40px;
+          color: #8987A1;
+          }
    /* card srtyle starts */
      .card-container{
-        margin-top: 40px;
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        gap: 50px 10px 
-     }
+          margin-top: 40px;
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          gap: 3.125rem 0.625rem;
+          }
      .card{
-         max-width: 270px;
-         height: 485px; 
-        }
+          max-width: 270px;
+          height: 485px; 
+          margin: 0 auto;
+          }
      .card img{
-        max-width: 100%;
-     }
+          max-width: 100%;
+          }
      .card-title{
-       font-family: "Inter", sans-serif;
-       font-size: 1.375rem;
-       font-weight: 500;
-       margin-top: 30px;
-     }
+          font-family: "Inter", sans-serif;
+          font-size: 1.375rem;
+          font-weight: 500;
+          margin-top: 30px;
+          }
      .price{
-       font-family: "Inter", sans-serif;
-       font-size: 1.375rem;
-       font-weight: 700;
-       margin-top: 20px;
-     }
-   
+          font-family: "Inter", sans-serif;
+          font-size: 1.375rem;
+          font-weight: 700;
+          margin-top: 20px;
+          }
      .main-btn{
-      width: 100%;
-      margin-top: 30px;
-       font-size: 1rem;
-      font-weight: 600;
-      padding: 20px 50px;
-      border: none;
-      background-color: #E95A08;
-      color: white;
-      font-family: "Inter", sans-serif;
-     }
+          width: 100%;
+          margin-top: 30px;
+          font-size: 1rem;
+          font-weight: 600;
+          padding: 1.25rem 3.125rem;
+          border: none;
+          background-color: #E95A08;
+          color: white;
+          font-family: "Inter", sans-serif;
+          }
+    /* plants lover starts */
+     .plants-lover-container{
+          position: relative;
+          margin-top: 200px
+          }
+     .badge{
+          max-width: 286px;
+          height: 286px;
+          position: absolute;
+          left: 21.875rem;
+          top: -7.5rem;
+          }
+     .plants-lover{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 6.25rem;
+          }
+     .plantlover-image img{
+          max-width: 540px;
+          max-height: 597px;
+          }
+     .plants-lover-airticle{
+          max-width: 540px;
+          text-align: left;
+          }
+     .lover-title{
+          font-family: "Noto Serif", serif;
+          font-size: 3.125rem;
+          font-weight: 700;
+          color: #000000;
+          }
+     .love-sub-title{
+          font-size: 1.375rem;
+          font-family: "Inter", sans-serif;
+          color: rgba(0, 0, 0, 0.5);
+          }
+     .title-1,.title-2,.title-3{
+          margin-top: 15px;
+          } 
+    /* deals style  */
+      .deals{
+          text-align: center;
+          margin-top: 120px;
+          }
 
-   /* card srtyle ends */
+     .deals-container{
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          grid-template-rows: repeat(2,1fr);
+          height: 424px; 
+          gap: 1.75rem;
+          margin-top: 90px;
+          }
+      .box{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border-radius: 1.25rem;
+          }
+     .div-1 h3 ,.div-2 h3 ,.div-3 h3{
+          font-size: 1.25rem;
+          font-weight: bold;
+          font-family: "Noto Serif", serif;
+          color: white; 
+          }
+     .div-1 a ,.div-2 a ,.div-3 a{
+          font-size: 1.25rem;
+          font-weight: 600;
+          font-family: "Noto Serif", serif;
+          color: white;  
+          }
+     .div-3 h3{
+          font-size: 2.5rem;
+          }
+     .div-3 a{
+          font-size: 1.75rem;
+          } 
+     .div-1{
+          background-image: linear-gradient(to left, rgba(0,0,0,0.5),  rgba(0,0,0,0.5)),url(../assets/deal-bloom.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          grid-column:  span 1;
+          }
+     .div-2{
+          background-image: linear-gradient(to left, rgba(0,0,0,0.5),  rgba(0,0,0,0.5)),url(../assets/deal-ana.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          grid-column:  span 1;
+          }
+     .div-3{
+          background-image: linear-gradient(to left, rgba(0,0,0,0.5),  rgba(0,0,0,0.5)),url(../assets/deal-zabo.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          grid-column:2/4;
+          grid-row:1/3;
+          }
+   /* join  */
+     .join-container{
+          max-width: 1440px;
+          height: 533px;
+          margin: 0 auto;
+          margin-top: 120px;
+          display: flex;
+          align-items: center;
+          background-image: url(../assets/news-letter-bg.png);
+          }
+     .bunch-colorful{
+          text-align: center; 
+          margin: 0 auto; 
+          }
+     .join-title{
+          font-size: 3.125rem;
+          font-weight: 700;
+          color: white;
+          font-family: "Noto Serif", serif;
+          padding-bottom: 1.25rem;
+          } 
+      input{
+          width: 36.25rem;
+          padding: 1.25rem;
+          height: 50px;
+          font-size: 1rem ;
+          font-weight: 600;
+          border: none;
+          } 
+      .subscribe{
+          font-weight: 600;
+          font-size: 1rem;
+          padding: 1rem 3rem; 
+          border: none;
+          margin-left: -4px;
+          background-color: #E95A08;
+          color: white;
+          } 
+    /* footer  */
+      .footer-container{
+          display: flex;
+          justify-content: space-between;
+          align-items: start;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          }
+      .footer-logo{
+          max-width: 360px;
+          }
+      .link ul li{
+          list-style: none;
+          margin-top: 32px;
+          }
+      .link ul li a{
+          text-decoration: none;
+          color: #8987A1;
+          font-family: "Inter", sans-serif;
+          }
+      .social-link a{
+          margin: 24px;
+          }
+      .social-link img{
+          width: 36px;
+          height: 36px;
+          }
+      .twit{
+          padding: 5px;
+          }
 
-   /* plants lover starts */
-.plants-lover-container{
-   position: relative;
-   margin-top: 200px
-}
-
-.badge{
-   max-width: 286px;
-   height: 286px;
-   position: absolute;
-   left: 21.875rem;
-   top: -7.5rem;
-}
-.plants-lover{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 100px;
-}
-.plantlover-image img{
-  max-width: 540px;
-  max-height: 597px;
-}
-.plants-lover-airticle{
-   max-width: 540px;
-   text-align: left;
-}
-.lover-title{
-   font-family: "Noto Serif", serif;
-   font-size: 3.125rem;
-   font-weight: 700;
-   color: #000000;
-}
-.love-sub-title{
-    font-size: 1.375rem;
-    font-family: "Inter", sans-serif;
-    color: rgba(0, 0, 0, 0.5);
-}
-.title-1,.title-2,.title-3{
-   margin-top: 15px;
-}
-   /* plants lover ends */
-
-
-/* deals style  */
-.deals{
-   text-align: center;
-   margin-top: 120px;
-}
-
-.deals-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-    height: 424px; 
-    gap: 28px;
-    margin-top: 90px;
-
-}
-.box{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   border-radius: 1.25rem;
-}
-
-
-.div-1 h3 ,.div-2 h3{
-    font-size: 1.25rem;
-    font-weight: bold;
-    font-family: "Noto Serif", serif;
-    color: white; 
-}
-.div-1 a ,.div-2 a{
-    font-size: 1.25rem;
-    font-weight: 600;
-    font-family: "Noto Serif", serif;
-    color: white;  
-}
-.div-3 h3{
-    font-size: 2.5rem;
-    font-weight: bold;
-    font-family: "Noto Serif", serif;
-    color: white; 
-}
-.div-3 a{
-    font-size: 1.75rem;
-    font-weight: 600;
-    font-family: "Noto Serif", serif;
-    color: white;  
-}
-.div-1{
-   background-image: linear-gradient(to left, rgba(0,0,0,0.5),  rgba(0,0,0,0.5)),url(../assets/deal-bloom.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   grid-column:  span 1;
-}
-.div-2{
-   background-image: linear-gradient(to left, rgba(0,0,0,0.5),  rgba(0,0,0,0.5)),url(../assets/deal-ana.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   grid-column:  span 1;
-}
-.div-3{
-   background-image: linear-gradient(to left, rgba(0,0,0,0.5),  rgba(0,0,0,0.5)),url(../assets/deal-zabo.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   grid-column:2/4;
-   grid-row:   1/3;
-   }
-/* main style ends  */
-/* join  */
-   .join-container{
-    
-    max-width: 1440px;
-    height: 533px;
-   margin: 0 auto;
-   margin-top: 120px;
-   display: flex;
-   align-items: center;
-   background-image: url(../assets/news-letter-bg.png);
- 
- }
- .bunch-colorful{
-  
-    text-align: center;
-    margin-top: 120px;
-    margin: 0 auto;
-  
- }
-
- 
-    .join-title{
-   font-size: 3.125rem;
-   font-weight: 700;
-   color: white;
-   font-family: "Noto Serif", serif;
-   padding-bottom: 20px;
-
-    } 
-
-
-
- input{
-    
-    width: 36.25rem;
-    padding: 1.25rem;
-     height: 50px;
-     font-size: 1rem ;
-     font-weight: 600;
-      margin: 0 auto; 
-      border: none;
-      
-} 
-.subscribe{
-   
-    font-weight: 600;
-    font-size: 1rem;
-    padding: 16px 53px;
-    border: none;
-    margin-left: -4px;
-    background-color: #E95A08;
-    color: white;
-    
-} 
-.footer-container{
-   display: flex;
-   justify-content: space-between;
-   align-items: start;
-   margin-top: 50px;
-   margin-bottom: 50px;
-}
-.footer-logo{
-   max-width: 360px;
-}
-.link ul li{
-    list-style: none;
-      margin-top: 32px;
-}
-.link ul li a{
-    text-decoration: none;
-    color: #8987A1;
-    font-family: "Inter", sans-serif;
-  
-}
-.social-link a{
-   margin: 24px;
-}
-.social-link img{
-   width: 36px;
-   height: 36px;
-   
- 
-
-}
-.twit{
-   padding: 5px;
-}
-
-
-
- 
-
-/* font-family: "Noto Serif", serif;
-    font-family: "Inter", sans-serif;
- */
+     /* mobile device  */
  @media screen and (max-width:576px) {
- .hidden-bar {
-        display: none;
-    }
+     .nav{
+      padding: 0.5rem;
+     }
+       .nav-menu ul .cart{
+         margin-right:0 ;
+       }
+      .hidden-bar {
+          display: none;
+          }
+          .cart{
+            margin-right: 0;
+          }
     .nav-logo img{
-        max-width: 63px;
-        height: 38px;
-    }
+          max-width: 63px;
+          height: 38px;
+          }
     /* banner  */
-     .banner-container{
-      flex-direction: column-reverse;
-      margin-top: 28px;
-     }
-      .banner-article ,
-      .plants-sub-title,
-      .card-container{
-        padding: 0 16px;
-     }
+      .banner-container{
+          flex-direction: column-reverse;
+          margin-top: 28px;
+          }
+      .banner-article,.plants-sub-title,.card-container{
+          padding: 0 16px;
+          }
      .banner-title,.plants-title{
-       font-size: 1.5rem;
-       margin-top: 30px;
-     }
-     
+          font-size: 1.5rem;
+          margin-top: 30px;
+          }
      .banner-discription ,.plants-sub-title{
-        font-size: 0.875rem;
-     }
+          font-size: 0.875rem;
+          } 
      /* plants  */
      .plants{
-       margin-top: 28px;
-     }
+          margin-top: 28px;
+          }
      /* card  */
-    .card-container{
-        grid-template-columns: repeat(2,1fr);  
-       }
+     .card-container{
+          grid-template-columns: repeat(2,1fr);  
+          }
       .card{
-        max-width: 171px;
-         max-height: 385px; 
-         margin: 0 auto;   
-        }
-        .card-title ,.price{
+          max-width: 171px;
+          max-height: 385px; 
+          }
+      .card-title ,.price{
           font-size: 1rem;
-      
-     }
-     .main-btn{
-      padding: 19px 30px;
-      }
-
-      /* lover plants  */
+          }
+      .main-btn{
+          padding: 1.19rem 1.875rem;
+          }
+   /* lover plants  */
       .badge{
           display: none;
-      }
+          }
       .lover-title{
-         font-size: 1.5rem;
-         margin-top: -80px;
-      }
+          font-size: 1.5rem;
+          margin-top: -80px;
+          }
       .love-sub-title{
-         font-size: 0.875rem;
-      }
+          font-size: 0.875rem;
+          }
       .plants-lover{
-         flex-direction: column;
-         padding: 16px;
-      }
+          flex-direction: column;
+          padding: 1rem;
+          }
       .plantlover-image img{
-         max-width: 100%;
-      }
+          max-width: 100%;
+          }
       .plants-lover-container{
-         margin-top: 50px;
-      }
+          margin-top: 50px;
+          }
       .plants-lover-container ul{
-         padding-left: 30px;
-        
-      }
+          padding-left: 1.875rem;
+          }
       /* deals  */
       .deals{
-        margin-top:30px;
-      }
+          margin-top:30px;
+          }
       .plants-sub-title{
-         margin-top: 20px;
-      }
+          margin-top: 20px;
+          }
       .deals-container{
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(1,1fr);
-        margin-top: 50px;
-        padding: 16px;
-       
-      }
+          grid-template-columns: repeat(1,1fr);
+          grid-template-rows: repeat(1,1fr);
+          margin-top: 50px;
+          padding: 1rem;
+          }
       .div-1,.div-2,.div-3{
           grid-column:  auto;
           grid-row:  auto;
           max-width: 100%; 
-          height: 250px;
-        }
-        .box h3{
-         font-size: 1.25rem;
-        }
-        .box a{
-         font-size: 1rem;
-        }
-
-
+          height: 230px;
+          }
+      .box h3{
+          font-size: 1.25rem;
+          }
+      .box a{
+          font-size: 1rem;
+          }
       /* join  */
       .join-container{
-         height: 275px;
-         padding: 16px;
-         margin-top: 450px; 
-         background-size: cover;
-      }
+          height: 275px;
+          padding: 1rem;
+          margin-top: 450px; 
+          background-size: cover;
+          }
       .join-title{
-   font-size: 1.25rem;
-    } 
-   input{   
-    width:60%;
-      } 
-.subscribe{  
-    padding: 16px 20px;
-   } 
-
+          font-size: 1.25rem;
+          } 
+      input{   
+          width:60%;
+          } 
+      .subscribe{  
+          padding: 1rem 1.25rem;
+          } 
    /* footer  */
-   
-.footer-container{
-  flex-direction: column;
-  padding: 0 20px;
-  
-}
-.footer-logo img{
-      max-width: 170px;
-      height: 100px;
-   }
-.social-link{
-     margin-top: 20px;
-}
-.social-link a{
- 
-   margin-left: 0;
-}
-
-      
-    
-    
- }
+      .footer-container{
+          flex-direction: column;
+          padding: 0 1.25rem;
+          }
+      .footer-logo img{
+          max-width: 170px;
+          height: 100px;
+          }
+      .social-link{
+          margin-top: 20px;
+          }
+      .social-link a{
+          margin-left: 0;
+          }
+          }
