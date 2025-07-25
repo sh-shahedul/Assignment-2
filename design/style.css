@@ -288,7 +288,7 @@
      /* mobile device  */
  @media screen and (max-width:576px) {
      .nav{
-      padding: 0.5rem;
+      padding:0  0.5rem;
      }
        .nav-menu ul .cart{
          margin-right:0 ;
