@@ -16,16 +16,7 @@
     height: auto;
     margin: 0 auto;    
     }
-    .btn-primary{
-     font-size: 1rem;
-     font-weight: 600;
-     padding: 20px 50px;
-     border: none;
-     background-color: #E95A08;
-     color: white;
-      font-family: "Inter", sans-serif;
-
-    }
+    
     
  /* header style start  */
 /* nav style  */
@@ -41,7 +32,7 @@
     }
     .nav-menu ul li{
        list-style: none;
-       margin: 10px;
+       margin: 1.875rem;
     }
     .nav-menu ul li a{
          text-decoration: none;
@@ -55,7 +46,7 @@
        display: flex;
        justify-content: space-between;
        align-items: end;
-       margin-top: 120px;
+       margin-top: 7.5rem;
      }
      .banner-article{
        max-width: 570px;
@@ -126,9 +117,17 @@
        font-weight: 700;
        margin-top: 20px;
      }
+   
      .main-btn{
       width: 100%;
       margin-top: 30px;
+       font-size: 1rem;
+      font-weight: 600;
+      padding: 20px 50px;
+      border: none;
+      background-color: #E95A08;
+      color: white;
+      font-family: "Inter", sans-serif;
      }
 
    /* card srtyle ends */
@@ -143,8 +142,8 @@
    max-width: 286px;
    height: 286px;
    position: absolute;
-   left: 350px;
-   top: -120px;
+   left: 21.875rem;
+   top: -7.5rem;
 }
 .plants-lover{
    display: flex;
@@ -197,7 +196,7 @@
    flex-direction: column;
    align-items: center;
    justify-content: center;
-   border-radius: 20px;
+   border-radius: 1.25rem;
 }
 
 
@@ -243,25 +242,10 @@
    background-size: cover;
    grid-column:2/4;
    grid-row:   1/3;
-}
-
-
-
-
-
-
-
-
-
-
-
-
- /* main style ends  */
-
-
- 
-
-  .join-container{
+   }
+/* main style ends  */
+/* join  */
+   .join-container{
     
     max-width: 1440px;
     height: 533px;
@@ -294,8 +278,8 @@
 
  input{
     
-    width: 580px;
-    padding: 20px;
+    width: 36.25rem;
+    padding: 1.25rem;
      height: 50px;
      font-size: 1rem ;
      font-weight: 600;
@@ -314,6 +298,41 @@
     color: white;
     
 } 
+.footer-container{
+   display: flex;
+   justify-content: space-between;
+   align-items: start;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.footer-logo{
+   max-width: 360px;
+}
+.link ul li{
+    list-style: none;
+      margin-top: 32px;
+}
+.link ul li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-family: "Inter", sans-serif;
+  
+}
+.social-link a{
+   margin: 24px;
+}
+.social-link img{
+   width: 36px;
+   height: 36px;
+   
+ 
+
+}
+.twit{
+   padding: 5px;
+}
+
+
 
  
 
@@ -424,7 +443,7 @@
       .join-container{
          height: 275px;
          padding: 16px;
-         margin-top: 450px;
+         margin-top: 450px; 
          background-size: cover;
       }
       .join-title{
@@ -436,6 +455,25 @@
 .subscribe{  
     padding: 16px 20px;
    } 
+
+   /* footer  */
+   
+.footer-container{
+  flex-direction: column;
+  padding: 0 20px;
+  
+}
+.footer-logo img{
+      max-width: 170px;
+      height: 100px;
+   }
+.social-link{
+     margin-top: 20px;
+}
+.social-link a{
+ 
+   margin-left: 0;
+}
 
       
     
